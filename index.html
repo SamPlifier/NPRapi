@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Quicksand:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Pinyon+Script" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="lib/styles/main.min.css">
+    <title>npr api</title>
+</head>
+
+<body>
+    <div class="topContainer">
+        <div class="firstImgContainer">
+            <img src="/assets/amerTobacco.jpg" alt="American Tobacco Campus Background">
+        </div>
+        <div class="headers">
+            <h1>npr</h1>
+            <ul class="navButtons">
+              <li data-name="home">home</li>
+              <li data-name="ted" >ted hour</li>
+              <li data-name="music">music</li>
+            </ul>
+        </div>
+        <!-- <p>I own none of the content provided and am entirely unaffiliated with NPR. This was solely an open API with which to practice Handlebars templates for an assignment at the Iron Yard.</p> -->
+<div class="contentProvider">I own none of the content provided and am entirely unaffiliated with NPR.</div>
+        <main class="mainContent"></main>
+        <script type="text/x-handlebars-template" id="story">
+            <div class="resultsRow">
+                <div class="picture"><img src= {{picture}} ></div>
+                <h3 class="fullArticle"><a href= {{fullArticle}} >Full Article</a></h3>
+                <p class="shortTitle">{{shortTitle}}</p>
+                <p class="datePublish">{{datePublish}}</p>
+            </div>
+      </script>
+      <script src="lib/js/main.min.js"></script>
+
+</body>
+
+</html>

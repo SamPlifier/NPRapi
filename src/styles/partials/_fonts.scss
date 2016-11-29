@@ -1,0 +1,47 @@
+$newsParagraph: 'Old Standard TT', serif;
+$cursive: 'Pinyon Script', cursive;
+$roundSans: 'Quicksand', sans-serif;
+$allCaps: 'Alegreya Sans SC', sans-serif;
+
+ul.navButtons {
+    font-family: $allCaps;
+    color: #221413;
+    font-size: 130%;
+}
+
+h1 {
+    font-family: $roundSans;
+    color: #221413;
+    font-size: 500%;
+    padding: 0 2%;
+}
+
+p {
+    font-family: $newsParagraph;
+    // text-align: justify;
+}
+
+.headers {
+    background: #bb3322;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.resultsRow {
+    .fullArticle a {
+        font-family: $newsParagraph;
+        color: white;
+    }
+
+    .datePublish,
+    .fullArticle,
+    .shortTitle {
+        background: #ad3225;
+
+        line-height: 1.3em;
+    }
+}
+
+.activePage {
+  color: #df760c;
+}

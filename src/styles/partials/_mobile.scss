@@ -1,0 +1,9 @@
+@media (max-width: 550px) {
+  .headers ul {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+    .resultsRow {
+        width: 50%;
+    }
+}
