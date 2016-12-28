@@ -6,6 +6,6 @@ Practice using Handlebars, JavaScript, jQuery, ajax and the open API from NPR. *
 
 The content requires loading over https so, if you wish to view the results as pictured below, you may clone the repo (and open the html file.) Otherwise, clicking on TED or MUSIC will only show an error in the dev tools. If I had the time, I would have made an error print to the page when/if the content were undeliverable.
 
-![Result of clicking]()
+![Result of clicking MUSIC picutred below]()
 
 
