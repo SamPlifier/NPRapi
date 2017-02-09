@@ -1,5 +1,5 @@
 {
-    "name": "base-project",
+    "name": "NPRapi",
     "version": "1.0.0",
     "main": "index.js",
     "dependencies": {
@@ -17,7 +17,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
+    "author": "Samuel Davis-Castro",
     "license": "ISC",
-    "description": "##1. Install Node [www.nodejs.com](http://www.nodejs.com)",
+    "description": "##1. Install Node [www.nodejs.com](http://www.nodejs.com)"
 }
