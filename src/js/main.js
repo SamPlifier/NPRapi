@@ -12,11 +12,11 @@ $('.navButtons li').click(function(event) {
     var name = $(this).attr('data-name');
     updateWindowHash(name);
     if (name == "ted") {
-        var responseTED = $.getJSON('http://api.npr.org/query?id=57&apiKey=' + user.key + '&output=JSON').then(function(response) {
+        var responseTED = $.getJSON('https://api.npr.org/query?id=57&apiKey=' + user.key + '&output=JSON').then(function(response) {
             handleResponse(response);
         });
     } else if (name == "music") {
-        var responseMusic = $.getJSON('http://api.npr.org/query?id=1039&apiKey=' + user.key + '&output=JSON').then(function(response) {
+        var responseMusic = $.getJSON('https://api.npr.org/query?id=1039&apiKey=' + user.key + '&output=JSON').then(function(response) {
             handleResponse(response);
         });
     } else {
